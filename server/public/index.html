@@ -8,7 +8,12 @@
     <script src="scripts/client.js"></script>
     <title>NG Activity</title>
 </head>
-<body>
+<body ng-app="foodApp">
     <h1>NG Activity</h1>
+    <div ng-controller="FoodController as fc">
+        <input placeholder="food" type="text" ng-model="fc.foodIn">
+        <p>{{fc.foodIn}}</p>
+
+    </div>
 </body>
 </html>

@@ -1,5 +1,5 @@
 let foodApp = angular.module('foodApp', []);
 
-applicationCache.controller('FoodController', function() {
+foodApp.controller('FoodController', function() {
     let vm =this;
 })
