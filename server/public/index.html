@@ -12,7 +12,8 @@
     <h1>NG Activity</h1>
     <div ng-controller="FoodController as fc">
         <input placeholder="food" type="text" ng-model="fc.foodIn">
-        <p>{{fc.foodIn}}</p>
+        <button ng-click="fc.addFood()">Add Food</button>
+        <p>{{fc.allFoods}}</p>
 
     </div>
 </body>
